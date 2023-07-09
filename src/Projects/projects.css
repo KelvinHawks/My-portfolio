@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #fff;
+}
+.container h1{
+    font-size: 33px;
+    color: #1f1f1f;
+}
+.content{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+.item-from-data{
+   width: 500px;
+   text-align: left;
+}
+.item-from-data h2, p{
+    color: #1f1f1f;
+}
+.item-from-data img{
+    width: 100%;
+}
+.buttons{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.buttons button{
+    padding: 8px 10px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color: #fff;
+
+}
+.buttons button a{
+    text-decoration: none;
+    color: inherit;
+}
+@media only screen and (max-width:700px){
+    .container h1{
+        font-size: 27px;
+    }
+    .buttons{
+        padding: 10px;
+    }
+}

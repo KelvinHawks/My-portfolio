@@ -1,0 +1,80 @@
+.header-title{
+    width: 100%;
+    text-align: center;
+}
+#header-my{
+    color: blueviolet;
+}
+.all-items-container{
+    display: flex;
+    justify-content: center;
+
+}
+.input-section{
+    width: 50%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-section form{
+    display: flex;
+    flex-direction: column;
+}
+.input-section form input{
+    width: 300px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 1px solid #747474;
+}
+.input-section form textarea{
+    margin-top: 30px;
+}
+.input-section form button{
+    margin-top: 23px;
+    padding: 9px 12px;
+    width: 120px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+form p{
+    color: rgb(252, 65, 65);
+}
+.address-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.submit{
+    color: rgb(6, 90, 6);
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(132, 228, 132);
+}
+
+@media only screen and (max-width:700px){
+    .input-section form input{
+        width: 200px;
+        margin-top: 5px;
+    }
+    .all-items-container{
+        padding-left: 20px;
+        gap: 10px;
+    }
+    .header-title h1{
+        font-size: 28px;
+    }
+    .input-section form textarea{
+        margin-top: 5px;
+    }
+    .input-section form button{
+        width: 85px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+}

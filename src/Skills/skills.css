@@ -1,0 +1,24 @@
+.all-container{
+    color: #1f1f1f;
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-content{
+    display: block;
+    text-align: left; 
+}
+@media only screen and (max-width:700px){
+    .container-content h1{
+        font-size: 20px;
+    }
+    .container-content p{
+        font-size: 13px;
+    }
+    .all-container{
+        padding: 1rem;
+        gap: 2rem;
+    }
+}
