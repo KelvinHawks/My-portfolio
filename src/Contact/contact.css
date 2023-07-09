@@ -59,22 +59,25 @@ form p{
 @media only screen and (max-width:700px){
     .input-section form input{
         width: 200px;
-        margin-top: 5px;
+        margin-top: 0;
     }
     .all-items-container{
-        padding-left: 20px;
+        padding-left: 0;
         gap: 10px;
     }
     .header-title h1{
         font-size: 28px;
     }
     .input-section form textarea{
-        margin-top: 5px;
+        margin-top: 0;
     }
     .input-section form button{
         width: 85px;
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+    .address-container p{
+        font-size: 13px;
     }
     
 }

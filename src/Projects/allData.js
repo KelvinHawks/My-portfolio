@@ -25,10 +25,10 @@ export default [
     },
     {
         id: 4,
-        img: '/images/ecommerce.png',
-        title: 'Ecommerce',
+        img: '/images/todo.png',
+        title: 'To-do-list',
         desc: 'Ecommerce website is a FE design of an ecommerce. It is a javascript website',
-        demo: 'https://kelvinhawks.github.io/Emarket.github.io/',
-        code: 'https://github.com/KelvinHawks/Emarket.github.io'
+        demo: 'https://savelist.netlify.app/',
+        code: 'https://github.com/KelvinHawks/to-do-list2'
     }
 ]
